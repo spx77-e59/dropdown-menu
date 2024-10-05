@@ -1,9 +1,13 @@
 {
   "name": "@spx77-e59/dropdown-menu",
-  "version": "1.0.0",
+  "version": "2.1.1",
   "description": "",
-  "main": "index.js",
-  
+  "main": "dist/main.js",
+  "files": [
+    "dist",
+    "!dist/index.html",
+    "!*.map"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.prod.js",
